@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>ลิงค์แชร์กิจกรรม</title>
+</head>
+<body>
+    <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
+    <script>
+        async function main() {
+                                         // Liff ID
+            await liff.init({ liffId: "1660962236-qnB7nPQ8" })
+            await liff.shareTargetPicker([
+                {
+                    type: "flex",
+                    // ข้อความก่อนกดอ่าน
+                    altText: "พี่ว่างไหม",
+                    contents: 
+                    // โค้ดจาก line bot designer
+                    {
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "size": "full",
+            "url": "https://media.discordapp.net/attachments/1099608110353616976/1099608738962341888/add1.jpeg?width=930&height=930"
+          }
+        ],
+        "cornerRadius": "xxl",
+        "borderWidth": "semi-bold"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "เครดิตฟรี ถอนได้ชัวร์",
+            "color": "#ffffff",
+            "weight": "bold",
+            "align": "center",
+            "size": "xl"
+          },
+          {
+            "type": "text",
+            "text": "รับได้เลยไม่ต้องฝากก่อน",
+            "color": "#ffffff",
+            "align": "center",
+            "weight": "bold"
+          }
+        ],
+        "cornerRadius": "xxl",
+        "borderWidth": "semi-bold",
+        "paddingAll": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "💸 แจกเครดิตฟรี",
+                  "uri": "https://lin.ee/ycjmHECk"
+                },
+                "color": "#ffffff"
+              }
+            ],
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#bc0707",
+              "endColor": "#bc0707",
+              "centerColor": "#f73131"
+            },
+            "margin": "sm",
+            "cornerRadius": "lg"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "🌐 สมัครสมาชิก",
+                  "uri": "https://www.whatslot168.com/"
+                },
+                "color": "#ffffff"
+              }
+            ],
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#bc0707",
+              "endColor": "#bc0707",
+              "centerColor": "#f73131"
+            },
+            "cornerRadius": "lg",
+            "margin": "md"
+          }
+        ]
+      }
+    ],
+    "backgroundColor": "#001055",
+    "background": {
+      "type": "linearGradient",
+      "angle": "0deg",
+      "startColor": "#360e7e",
+      "endColor": "#360e7e",
+      "centerColor": "#6d30cc"
+    },
+    "paddingAll": "md",
+    "borderColor": "#ffffff"
+  }
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+</html>
